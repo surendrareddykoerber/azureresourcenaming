@@ -188,9 +188,9 @@ def main():
     st.code(final, language="python")
     st.write('\n')                     
 
-    URL = 'https://azureresoucenamer.streamlit.app/'
-    PRJ = 'https://github.com/users/SurendraRedd/projects/4'
-    DIS = 'https://github.com/SurendraRedd/azureresoucenamer/discussions'
+    URL = 'https://azureresourcenaming.streamlit.app/'
+    PRJ = 'https://github.com/users/surendrareddykoerber/projects/1'
+    DIS = 'https://github.com/surendrareddykoerber/azureresourcenaming/discussions'
 
     one,two=st.columns(2)
     with one:
@@ -204,9 +204,6 @@ def main():
         with st.expander('Raise an Issue'):
             st.write(PRJ)
             st.write(DIS)
-            st.markdown(f'''
-                    [![Gitter](https://badges.gitter.im/discussions2021/community.svg)](https://gitter.im/discussions2021/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-                    ''',unsafe_allow_html=True)
 
 
 # main function call
