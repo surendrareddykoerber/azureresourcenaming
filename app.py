@@ -183,7 +183,7 @@ def main():
     st.write('---')
     final = valuert + '-' + valuewl + '-' + valueev + '-' + valuere + '-' + valueit
 
-    st.subheader('Resource Name')
+    st.subheader('Final Resource Name')
     #st.text_area('FinalName',final,help="Final Resource Name")
     st.code(final, language="python")
     st.write('\n')                     
