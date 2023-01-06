@@ -40,7 +40,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     #st.header("📘Azure Resource Naming Tool")
-
+    st.write('\n')
     with st.expander('Demo'):
         # Embed a youtube video
         #st_player("https://youtu.be/5p-z_-6T57g")
