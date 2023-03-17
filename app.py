@@ -9,6 +9,7 @@ Azure Resource Namer application.
 import streamlit as st
 from streamlit_player import st_player
 import base64
+import time
 
 # Header template
 html_temp = """
@@ -179,7 +180,10 @@ def main():
     with col5:
         valueit = str(st.number_input('Instance',1,help='instance'))
         #valueit = str(st.slider('Instance',1,20,disabled=False,help='instance')) -> Slider input
-
+    
+    with st.spinner('generation in progress...'):
+        time.sleep(5)
+    
     st.write('---')
     final = valuert + '-' + valuewl + '-' + valueev + '-' + valuere + '-' + valueit
 
