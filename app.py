@@ -181,7 +181,7 @@ def main():
         valueit = str(st.number_input('Instance',1,help='instance'))
         #valueit = str(st.slider('Instance',1,20,disabled=False,help='instance')) -> Slider input
     
-    with st.spinner('generation in progress...'):
+    with st.spinner('Name generation is in progress...'):
         time.sleep(5)
     
     st.write('---')
