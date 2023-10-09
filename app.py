@@ -56,7 +56,7 @@ def main():
         )
 
 
-    st.write("A simple tool to help you name your Azure resources, based on the [Cloud Adoption Framework naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)")
+    st.write("Tool to help you name your Azure resources, based on the [Cloud Adoption Framework naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)")
     st.write('\n')
     col1,col2=st.columns(2)
     with col1:
@@ -146,7 +146,7 @@ def main():
             valuert = st.selectbox('Choose type', options=list(DEPRECATED.keys()))
             valuert = DEPRECATED.get(valuert)
     with col2:
-        valuewl = st.text_input('Workload/Application','myapp',help='workload or application')
+        valuewl = st.text_input('Workload/Application/Customer','myapp',help='workload or application')
     with col3:
         valueev = st.text_input('Environment','prod',help='environment')
     with col4:
